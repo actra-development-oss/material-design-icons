@@ -1,7 +1,7 @@
 {
     "name":            "@actra-development-oss/material-design-icons",
     "version":         "3.0.1",
-    "description":     "Material Design icons by Google - cleand to contain only the font files",
+    "description":     "Material Design icons by Google - cleaned to contain only the font files",
     "scripts":         {
         "preparePublish":   "npm run run-s -- clean:dist preparePublish:*",
         "preparePublish:1": "npm run mkdirp -- ./dist",
