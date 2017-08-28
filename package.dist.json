@@ -4,7 +4,7 @@
     "description": "Material Design icons by Google - cleand to contain only the font files",
     "repository":  {
         "type": "git",
-        "url": "https://github.com/actra-development-oss/material-design-icons"
+        "url":  "https://github.com/actra-development-oss/material-design-icons"
     },
     "keywords":    [
         "icons",
@@ -17,5 +17,5 @@
     "bugs":        {
         "url": "https://github.com/google/material-design-icons/issues"
     },
-    "homepage":    "https://github.com/google/material-design-icons",
+    "homepage":    "https://github.com/google/material-design-icons"
 }

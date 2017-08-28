@@ -3,15 +3,14 @@
     "version":         "0.0.1",
     "description":     "Material Design icons by Google - cleand to contain only the font files",
     "scripts":         {
-        "preparePublish":   "npm run run-s -- preparePublish:*",
-        "preparePublish:1": "npm run clean:dist",
-        "preparePublish:2": "npm run mkdirp -- ./dist",
-        "preparePublish:3": "npm run ncp -- ./LICENSE ./dist/LICENSE",
-        "preparePublish:4": "npm run ncp -- ./package.dist.json ./dist/package.json",
-        "preparePublish:5": "npm run ncp -- ./README.md ./dist/README.md",
-        "preparePublish:6": "npm run ncp -- ./iconfont ./dist/iconfont",
+        "preparePublish":   "npm run run-s -- clean:dist preparePublish:*",
+        "preparePublish:1": "npm run mkdirp -- ./dist",
+        "preparePublish:2": "npm run ncp -- ./LICENSE ./dist/LICENSE",
+        "preparePublish:3": "npm run ncp -- ./package.dist.json ./dist/package.json",
+        "preparePublish:4": "npm run ncp -- ./README.md ./dist/README.md",
+        "preparePublish:5": "npm run ncp -- ./iconfont ./dist/iconfont",
         "doPublish":        "npm publish ./dist --access public --registry https://registry.npmjs.com/",
-        "clean:dist":       "npm run rimraf -- dist",
+        "clean:dist":       "npm run rimraf -- ./dist",
         "publishToNpmjs":   "npm run run-s -- preparePublish doPublish clean:dist",
         "mkdirp":           "./node_modules/.bin/mkdirp",
         "ncp":              "./node_modules/.bin/ncp",
@@ -20,7 +19,7 @@
     },
     "repository":      {
         "type": "git",
-        "url": "https://github.com/actra-development-oss/material-design-icons"
+        "url":  "https://github.com/actra-development-oss/material-design-icons"
     },
     "keywords":        [
         "icons",
