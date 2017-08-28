@@ -1,6 +1,6 @@
 {
     "name":        "@actra-development-oss/material-design-icons",
-    "version":     "0.0.1",
+    "version":     "3.0.1",
     "description": "Material Design icons by Google - cleand to contain only the font files",
     "repository":  {
         "type": "git",
